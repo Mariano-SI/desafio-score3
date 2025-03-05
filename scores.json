@@ -1,31 +1,93 @@
-{
-  "entities": [
-    {
+[
+  {
+    "entityRef": {
       "kind": "Component",
-      "namespace": "default",
-      "name": "desafio-score3",
-      "scores": [
-        {
-          "id": "code_quality",
-          "score": 85,
-          "description": "Código bem estruturado, cobertura de testes 85%"
-        },
-        {
-          "id": "security",
-          "score": 75,
-          "description": "Segurança atende padrões, mas faltam auditorias"
-        },
-        {
-          "id": "operations",
-          "score": 90,
-          "description": "CI/CD implementado, logs e monitoramento configurados"
-        },
-        {
-          "id": "documentation",
-          "score": 60,
-          "description": "Documentação básica, falta detalhamento técnico"
-        }
-      ]
-    }
-  ]
-}
+      "name": "desafio-score3"
+    },
+    "generatedDateTimeUtc": "2025-03-05 10:00",
+    "scorePercent": 75,
+    "scoreLabel": "B",
+    "scoreSuccess": "partial",
+    "scoringReviewer": "User",
+    "scoringReviewDate": "2025-03-05T08:00:00Z",
+    "areaScores": [
+      {
+        "id": 1,
+        "title": "Code Quality",
+        "scorePercent": 90,
+        "scoreLabel": "A",
+        "scoreSuccess": "success",
+        "scoreEntries": [
+          {
+            "id": 101,
+            "title": "Linting",
+            "scorePercent": 100,
+            "scoreLabel": "A",
+            "scoreSuccess": "success",
+            "scoreHints": "No linting errors detected",
+            "details": "Linting rules are strictly followed"
+          },
+          {
+            "id": 102,
+            "title": "Code Coverage",
+            "scorePercent": 80,
+            "scoreLabel": "B",
+            "scoreSuccess": "success",
+            "scoreHints": "80% test coverage achieved",
+            "details": "Code is well covered with tests"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Security",
+        "scorePercent": 70,
+        "scoreLabel": "C",
+        "scoreSuccess": "partial",
+        "scoreEntries": [
+          {
+            "id": 201,
+            "title": "SSL Implementation",
+            "scorePercent": 100,
+            "scoreLabel": "A",
+            "scoreSuccess": "success",
+            "details": "All endpoints are secured with SSL"
+          },
+          {
+            "id": 202,
+            "title": "Vulnerabilities",
+            "scorePercent": 40,
+            "scoreLabel": "D",
+            "scoreSuccess": "partial",
+            "details": "Some dependencies have known vulnerabilities"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Operations",
+        "scorePercent": 60,
+        "scoreLabel": "C",
+        "scoreSuccess": "partial",
+        "scoreEntries": [
+          {
+            "id": 301,
+            "title": "CI/CD Pipelines",
+            "scorePercent": 100,
+            "scoreLabel": "A",
+            "scoreSuccess": "success",
+            "details": "Pipelines are fully automated"
+          },
+          {
+            "id": 302,
+            "title": "Logging & Monitoring",
+            "scorePercent": 50,
+            "scoreLabel": "D",
+            "scoreSuccess": "partial",
+            "details": "Basic monitoring enabled, but lacks alerts"
+          }
+        ]
+      }
+    ]
+  }
+]
