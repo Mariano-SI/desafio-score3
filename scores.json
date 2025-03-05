@@ -1,0 +1,31 @@
+{
+  "entities": [
+    {
+      "kind": "Component",
+      "namespace": "default",
+      "name": "desafio-score3",
+      "scores": [
+        {
+          "id": "code_quality",
+          "score": 85,
+          "description": "Código bem estruturado, cobertura de testes 85%"
+        },
+        {
+          "id": "security",
+          "score": 75,
+          "description": "Segurança atende padrões, mas faltam auditorias"
+        },
+        {
+          "id": "operations",
+          "score": 90,
+          "description": "CI/CD implementado, logs e monitoramento configurados"
+        },
+        {
+          "id": "documentation",
+          "score": 60,
+          "description": "Documentação básica, falta detalhamento técnico"
+        }
+      ]
+    }
+  ]
+}
